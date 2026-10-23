@@ -14,7 +14,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/united-adstir/adstirsdk-swift-package.git",
-            exact: "2.17.8"
+            exact: "2.17.9"
         ),
     ],
     targets: [
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "IMobileAdapter",
-            url: "https://dl.ad-stir.com/sdk/spm/2.17.8/AdstirAdsMediationAdapterIMobile.xcframework.zip",
-            checksum: "c918f92e0653aba41a2983bf43e063b98a808576aa7d6abe597aec85037b23ec"
+            url: "https://dl.ad-stir.com/sdk/spm/2.17.9/AdstirAdsMediationAdapterIMobile.xcframework.zip",
+            checksum: "7047c1563899b5ce8750810018e29f0701a2fc69b8125fdd94542ac929c427a7"
         ),
         .binaryTarget(
             name: "IMobileSDK",
